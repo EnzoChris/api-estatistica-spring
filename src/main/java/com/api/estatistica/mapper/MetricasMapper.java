@@ -23,6 +23,7 @@ public class MetricasMapper {
             .build())
         .cov(dto.getCov())
         .corr(dto.getCorr())
+        .classificacaoFinal(dto.getClassificacaoFinal())
         .build();
     }
 
@@ -38,6 +39,7 @@ public class MetricasMapper {
             .build())
         .cov(model.getCov())
         .corr(model.getCorr())
+        .classificacaoFinal(model.getClassificacaoFinal())
         .build();
     }
 }
